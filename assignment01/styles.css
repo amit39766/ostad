@@ -1,0 +1,175 @@
+body{
+    padding: 1px;
+    margin: 0px;
+    display: flex;
+}
+
+#menu{
+    height: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    position: fixed;
+    width: 200px;
+    background-color: coral;
+    padding-left: 10px;
+    margin: 0px;
+    padding-top: 1px;
+    display: inline;
+    
+}
+
+a{
+    color: white;
+    padding:16px 12px;
+    text-decoration: none;
+    display: inherit;
+    
+}
+a:hover{
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
+
+
+hr{
+    width:80px;
+    border:5px solid red; 
+    float:left;
+    border-radius: 5px;
+}
+
+#sections{
+    margin-left: 210px;
+    padding-left: 20px;
+    background-color: aqua;
+    color: black;
+    display: block;
+    
+    
+}
+#intdesign{
+    text-align:left;
+    font-size: 100px;
+}
+
+img{
+    height: 500px;
+    width: 800px;
+}
+#Services, #designers{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+.persons{
+    display:inline-block;
+    width: 30%;
+    margin-left: 20px;
+    background-color: aliceblue;
+    
+}
+.persons img{
+    width: 100%;
+}
+.persons p, h1{
+    padding:10px;
+}
+
+
+#packages{
+    width: 100%;
+    padding: 0px;
+}
+#basic,#pro{
+    display: inline-block;
+    width: 49%;
+   
+}
+#basic ul,#pro ul{
+    font-size: xx-large;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    background-color: aquamarine;
+ 
+}
+.listdesign{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 32px 1px;
+}
+
+.lstbasic{
+    width: 100%;
+    padding: 32px 1px;
+    margin: 0px;
+    border-bottom: 1px solid gray;
+    background-color: #616161;
+}
+
+.lstpro{
+    width: 100%;
+    padding: 32px 1px;
+    margin: 0px;
+    border-bottom: 1px solid gray;
+    background-color: #f44;
+}
+
+.btncal{
+    font-size: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+#btnsub{
+    padding: 12px ;
+    background-color: #fff;
+    border: #fff;
+}
+
+#btnsub:hover{
+    padding: 12px ;
+    background-color: #Aff;
+    border: #aff;
+    color: black;
+    cursor: pointer;
+}
+
+#btnsup {
+    padding: 12px ;
+    background-color: red;
+    border: red;
+}
+
+#btnsup:hover{
+    padding: 12px ;
+    background-color: #aff;
+    border: #aff;
+    color: black;
+    cursor: pointer;
+}
+
+
+#contacts{
+    font-size: larger;
+}
+#contacts input ,#btnSM{
+    width: 80%;
+    padding: 15px;
+    
+}
+#btnSM{
+    width: 82%;
+    font-size: 20px;
+    padding: 15px;
+    background-color: chocolate;
+}
+
+#btnSM:hover{
+    background-color: blueviolet;
+}
